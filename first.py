@@ -6,3 +6,6 @@ class one:
     def methodonepart(self):
         print("method's part")
 
+    def localfile(self):
+        print("local file is added")
+

@@ -8,6 +8,7 @@
 #
 # obj=three()
 # obj.methodone()
+# obj.methodonepart()
 # obj.methodtwo()
 # obj.methodthree()
 
@@ -63,25 +64,46 @@ student('John', 'Gates', 'Seventh')
 student('John', 'Gates')
 student('John', 'Seventh')'''
 
+#
+# class Vehicle:
+#     def __init__(self, name, max_speed, mileage):
+#         self.name = name
+#         self.max_speed = max_speed
+#         self.mileage = mileage
+#
+#     def seating_capacity(self, capacity):
+#         return f"The seating capacity of a {self.name} is {capacity} passengers"
+#
+# class Bus(Vehicle):
+#     # assign default value to capacity
+#     def seating_capacity(self, capacity=45):
+#        return super().seating_capacity(capacity=45)
+#
+#
+# School_bus = Bus("School Volvo", 180, 12)
+# print(School_bus.seating_capacity())
 
-class Vehicle:
-    def __init__(self, name, max_speed, mileage):
-        self.name = name
-        self.max_speed = max_speed
-        self.mileage = mileage
+# class student:
+#     def __init__(self,student_id,student_name):
+#         self.student_id=student_id
+#         self.student_name=student_name
+#
+#
+#     def original_method(self,student_class):
+#         self.student_class=student_class
+#
+#     def printall(self):
+#         print(self.student_id)
+#         print(self.student_name)
+#         print(self.student_class)
+#
+# stu=student(11,"rajesh")
+# stu.original_method("seventh")
+# stu.printall()
 
-    def seating_capacity(self, capacity):
-        return f"The seating capacity of a {self.name} is {capacity} passengers"
 
-class Bus(Vehicle):
-    # assign default value to capacity
-    def seating_capacity(self, capacity=45):
-       return super().seating_capacity(capacity=45)
-
-
-School_bus = Bus("School Volvo", 180, 12)
-print(School_bus.seating_capacity())
-
+student1.add_student_class("10th grade")
+student1.display_attributes()
 
 
 
