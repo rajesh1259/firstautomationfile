@@ -10,3 +10,7 @@ class one:
     def newchages(self):
         print("added changes)
 
+
+    def newdata(self):
+        print("new data file)
+
