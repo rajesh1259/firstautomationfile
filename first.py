@@ -6,3 +6,7 @@ class one:
     def methodonepart(self):
         print("method's part")
 
+
+    def newchages(self):
+        print("added changes)
+
